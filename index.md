@@ -1,4 +1,4 @@
-## the LEGO Group public repositories
+## the LEGO Group - public repositories
 
 {% assign orderedRepos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repository in orderedRepos %}
