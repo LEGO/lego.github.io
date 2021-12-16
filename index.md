@@ -21,3 +21,5 @@ layout: default
 <i>{{repository.description}}</i>
 <p style="margin-top: 5px"><span style="margin-right:10px">{% octicon repo-forked size:small%} {{repository.forks_count}}</span> {% octicon star size:small %} {{repository.stargazers_count}} </p>
 </div>
+
+{% endfor %}
